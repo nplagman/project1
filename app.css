@@ -3,27 +3,62 @@
 	width: 100%;
 	height: 100%;
 }
+
+div[id^="A"] {
+	/*background: black;*/
+
+}
 .row {
-	height: 150px;
-	width: 100%;
-	background-color: green;
-	margin: 10px;
+	height: 90px;
+	/*width: 100%;*/
+	/*background-color: white;*/
+	margin: 3px;
 	display: flex;
 	align-content: space-between;
 }
 .well {
 	display: inline-block;
-	height: 130px;
-	width: 18%;
-	margin: 10px;
+	height: 80px;
+	width: 80px;
+	margin: 3px;
+	background: blue;
+	position:relative; 
+	
 }
+
+.blue {
+  background: yellow;
+}
+
+
 .title {
 	margin: 0 auto;
 
 }
 
+.highlight {
+	background: ##ffff00;
+}
+
+.question {
+	height: 300px;
+	width: 400px;
+	background: blue;
+	border-radius: 6px;
+	position: absolute;
+	top: 100px;
+	left: 450px;
+}
+
+p {
+	font-size: 18px;
+	color: white;
+	text-align: center;
+	vertical-align: middle;
 
 
+	
+}
 
 
 

@@ -2,11 +2,15 @@
 
 <html lang="en">
 <head>
+
   <meta charset="utf-8">
-  <title>Smoothies!</title>
+  <title>Midgets XXX</title>
   <meta name="description" content="">
   <meta name="author" content="N Plagman">
   <!-- Latest compiled and minified CSS -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
@@ -14,54 +18,62 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<!-- CSS FILE LINK    -->
+
 <link rel="stylesheet" type="text/css" href="app.css">
+<script src="script.js"></script>
 </head>
 
   <body>
+  
     <div id="wrapper">
 
          <div class="row">
-           <div class="title"><h2>Title of the Game</h2></div>
+           <div class="title"><h2></h2></div>
+            <div class="question"></div>
         </div>
 
 
         <div class="row">
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>  
+           <div class="well" id="A1">  <p>$100</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="B1">  <p>$100</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="C1">  <p>$100</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="D1">  <p>$100</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="E1">  <p>$100</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>  
         </div>
 
         <div class="row">
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>  
+           <div class="well" id="A2"> <p>$200</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="B2"> <p>$200</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="C2"> <p>$200</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="D2"> <p>$200</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="E2"> <p>$200</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div> 
         </div>
         <div class="row">
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>  
+           <div class="well" id="A3">  <p>$300</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="B3">  <p>$300</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="C3">  <p>$300</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="D3">  <p>$300</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="E3">  <p>$300</p> <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div> 
         </div>
         <div class="row">
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>  
+           <div class="well" id="A4"> <p>$400</p>   <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="B4"> <p>$400</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="C4"> <p>$400</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="D4"> <p>$400</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="E4"> <p>$400</p>  <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>   
         </div>
         <div class="row">
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>
-           <div class="well">   <button type="button" class="btn btn-primary rowq">Primary</button> </div>  
+           <div class="well" id="A5"><p>$500</p>   <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="B5"><p>$500</p>    <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="C5"><p>$500</p>    <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="D5"><p>$500</p>    <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div>
+           <div class="well" id="E5"><p>$500</p>    <!-- <button type="button" class="btn btn-primary rowq">Primary</button> --> </div> 
         </div>
     </div>
+    
+
   </body>
 </html>
 
